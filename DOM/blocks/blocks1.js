@@ -38,7 +38,7 @@ colorSelector.addEventListener("change", e => {
             colorToApply = blockNumber % 2 == 0 ? color : "#fff";
         }
 
-        colorTheBlock(currentBlock, colorToApply);
+        colorBlock(currentBlock, colorToApply);
     }
 })
 
